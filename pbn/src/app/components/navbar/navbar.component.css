@@ -1,0 +1,63 @@
+.nav-container{
+    width: 100%;
+    background-color: #1a1a1b;
+    height: 48px;
+    max-height: 44px;
+    border: 0;
+    font-size: 14px;
+    z-index: 9999;
+    position: sticky ;
+    top: 0;
+    user-select: none;
+}
+nav{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 70%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ffffff;
+    align-items: center;
+   
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar .nav-items a{
+    text-decoration: none;
+    transition: opacity 300ms ;
+    color: white;
+    opacity: 0.78;
+
+}
+
+.navbar .nav-items  a:hover{
+    opacity: 1;
+}
+
+
+
+.logo{
+    background: url("https://www.seoclerk.com/pics/676879-3Qk2mQ1559847433.jpg");
+    display: block;
+    background-position: center;
+    height: 48px;
+    background-size : 50px;
+    background-repeat : no-repeat;
+    width: 50px;
+}
+
+.search{
+    background: url("https://th.bing.com/th/id/R.3c6f4b1e848d1a3be57b8b0e9e6c03f8?rik=QzfJ22A34sepFg&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2frafiqul-hassan%2fblogger%2f512%2fSearch-icon.png&ehk=DHpB5EC8q%2fsFEOFHwagj0hcJnoof8qv3EKnrk3qnBSY%3d&risl=&pid=ImgRaw&r=0");
+    display: block;
+    background-position: center;
+    height: 44px;
+    background-size : 40px;
+    background-repeat : no-repeat;
+    width: 100%;
+}
+
